@@ -9,3 +9,5 @@ Thus, to recreate the games file structure we unpack each chunk and then merge t
 
 To unpack the .pak files I used unrealpak, but since the game uses oodle compression, which is a separate plugin for UE 4.27 and not included in unrealpak, you need to either create a UE project or install the oodle files yourself.
 This github packages the unrealpak tool with the plugin needed for oodle compression: [UnpealPak_4.27_with_Oodle](https://github.com/Punpude/UnrealPakTool/tree/UnrealPak_4.27_with_Oodle)
+
+The .pak files are also encrypted, so you need to add a crypto.json file as per the UnrealPak readme. The encryption key is "WdfQ3j05cE9UYDVcpsECuY/ruTPNBXyfkRm9uCZn4f8="
