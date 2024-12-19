@@ -1,0 +1,28 @@
+{
+	"FileVersion": 1,
+
+	"FriendlyName": "Bhvr Snake Case Utilities",
+	"Version": 1,
+	"VersionName": "1.0",
+	"CreatedBy": "Behaviour Interactive",
+	"CreatedByURL": "http://www.bhvr.com/",
+	"EngineVersion": "",
+	"Description": "Bhvr Snake Case Utilities.",
+	"Category": "Other",
+	"EnabledByDefault": true,
+
+	"Modules": [
+		{
+			"Name": "BhvrSnakeCaseUtilities",
+			"Type": "Runtime"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		}
+	],
+
+	"CanContainContent": false
+}

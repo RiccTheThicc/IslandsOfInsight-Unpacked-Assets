@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Marketing Camera",
+	"Description": "Provides blueprints which can spawn a secondary free moving camera",
+	"Category": "Monument Interactive",
+	"CreatedBy": "Monument Interactive",
+	"EngineVersion" : "4.27.0",
+	"MarketplaceURL" : "",
+    "CreatedByURL" : "",
+	"CanContainContent": true,
+	"Modules": [
+		{
+			"Name": "MarketingCamera",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
