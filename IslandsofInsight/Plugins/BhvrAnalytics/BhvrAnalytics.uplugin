@@ -1,0 +1,41 @@
+{
+	"FileVersion": 1,
+
+	"FriendlyName": "Bhvr Analytics",
+	"Version": 1,
+	"VersionName": "1.0",
+	"CreatedBy": "Behaviour Interactive",
+	"CreatedByURL": "http://www.bhvr.com/",
+	"EngineVersion": "",
+	"Description": "Bhvr analytics.",
+	"Category": "Other",
+	"EnabledByDefault": true,
+
+	"Modules": [
+		{
+			"Name": "BhvrAnalytics",
+			"Type": "Runtime"
+		},
+		{
+			"Name": "AnalyticsConfigGenerator",
+			"Type": "Editor"
+		}		
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "BhvrSnakeCaseUtilities",
+			"Enabled": true
+		}
+
+	],
+
+	"CanContainContent": true
+}
