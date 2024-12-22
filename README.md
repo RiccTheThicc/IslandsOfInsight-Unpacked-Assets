@@ -1,4 +1,8 @@
 # IslandsOfInsight-Unpacked-Assets
+This repo is a dump of all asset files from the .pak files within Islands of Insight.
+All files actually useful for modding are within the "\IslandsofInsight\Content\ASophia\" folder.
+
+## Unpacking
 The process of unpacking UE (Unreal Engine) .pak files can vary a lot depending on the version of UE and settings used while packing.
 
 Islands of Insight was developed using UE version 4.27, it's pak files use Oodle compression, and are encrypted using AES-256.
